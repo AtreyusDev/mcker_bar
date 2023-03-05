@@ -1,3 +1,16 @@
+/* Scroll-Bar */
+body::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    background: rgba(0,0,0,1);
+    
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
 /* Nav Bar */
 
 .navbar {
